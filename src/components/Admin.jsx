@@ -1,5 +1,8 @@
-import "./Admin.css"
+import {useState} from "react"
+import "./admin.css"
+
 export const Admin = () => {
+  const [data,setData] = useState()
   return (
     <form className="createEmployee">
       <input type="text" placeholder="Employee Name" name="employee_name" />
